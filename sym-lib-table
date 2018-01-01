@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ATM90E36_Breakout)(type Legacy)(uri ${KIPRJMOD}/ATM90E36_Breakout.lib)(options "")(descr ""))
+  (lib (name din_meter_atm90e36-cache)(type Legacy)(uri ${KIPRJMOD}/din_meter_atm90e36-cache.lib)(options "")(descr ""))
+)

@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ATM90E36_Breakout
+EESchema Schematic File Version 4
 LIBS:din_meter_atm90e36-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x10 J7
+L conn:Conn_01x10 J7
 U 1 1 5A2E938F
 P 3500 2050
 F 0 "J7" V 3624 1996 50  0000 C CNN
@@ -57,7 +27,7 @@ F 4 "52418-1010" H 3500 2050 60  0001 C CNN "manf#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_02x18_Row_Letter_First J8
+L conn:Conn_02x18_Row_Letter_First J8
 U 1 1 5A2E95C6
 P 6400 1950
 F 0 "J8" V 6404 962 50  0000 R CNN
@@ -78,15 +48,19 @@ CS_0
 Text GLabel 3500 2550 3    60   Output ~ 0
 SCLK
 Text GLabel 3600 2550 3    60   Input ~ 0
-SO/TX
+MISO
 Text GLabel 3700 2550 3    60   Output ~ 0
-SI/RX
+MOSI
 Text GLabel 3800 2550 3    60   Output ~ 0
 CS_1
 Text GLabel 3900 2550 3    60   BiDi ~ 0
 GND_ISO
 Text GLabel 4000 2550 3    60   BiDi ~ 0
 3V3_ISO
+Text GLabel 5600 2350 3    60   Output ~ 0
+3V3_ISO
+Text GLabel 6300 2350 3    60   Output ~ 0
+GND_ISO
 Wire Wire Line
 	3100 2250 3100 2550
 Wire Wire Line
@@ -129,8 +103,128 @@ Wire Wire Line
 	6000 1650 6000 1450
 Wire Wire Line
 	6100 1650 6100 1450
-Text GLabel 5600 2350 3    60   Output ~ 0
+Wire Wire Line
+	6700 1650 6700 1450
+Wire Wire Line
+	6900 1650 6900 1450
+Wire Wire Line
+	7100 1650 7100 1450
+Wire Wire Line
+	7300 1650 7300 1450
+Text GLabel 6700 2350 3    60   Output ~ 0
+GND_CPU
+Text GLabel 7100 2350 3    60   Output ~ 0
+3V3_CPU
+Text Notes 5600 2950 0    50   ~ 0
+Metering to Power/Sampler connector
+$Comp
+L device:L_Small L1
+U 1 1 5A4B475F
+P 3250 3650
+F 0 "L1" V 3072 3650 50  0000 C CNN
+F 1 "L_Small" V 3163 3650 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 3250 3650 50  0001 C CNN
+F 3 "" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L device:L_Small L2
+U 1 1 5A4B47F5
+P 3250 3900
+F 0 "L2" V 3072 3900 50  0000 C CNN
+F 1 "L_Small" V 3163 3900 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 3250 3900 50  0001 C CNN
+F 3 "" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3650 2950 3650
+Wire Wire Line
+	3350 3650 3600 3650
+Wire Wire Line
+	3150 3900 2950 3900
+Wire Wire Line
+	3350 3900 3600 3900
+Text GLabel 2950 3650 0    50   Input ~ 0
 3V3_ISO
-Text GLabel 6300 2350 3    60   Output ~ 0
+$Comp
+L power:+3V3 #PWR019
+U 1 1 5A4B57CD
+P 3600 3650
+F 0 "#PWR019" H 3600 3500 50  0001 C CNN
+F 1 "+3V3" V 3615 3778 50  0000 L CNN
+F 2 "" H 3600 3650 50  0001 C CNN
+F 3 "" H 3600 3650 50  0001 C CNN
+	1    3600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5A4B583A
+P 3600 3900
+F 0 "#PWR020" H 3600 3650 50  0001 C CNN
+F 1 "GND" V 3605 3772 50  0000 R CNN
+F 2 "" H 3600 3900 50  0001 C CNN
+F 3 "" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2950 3900 0    50   Input ~ 0
 GND_ISO
+Text GLabel 5700 2350 3    50   Output ~ 0
+V1P
+Text GLabel 5900 2350 3    50   Output ~ 0
+V2P
+Text GLabel 6100 2350 3    50   Output ~ 0
+V3P
+Wire Wire Line
+	5600 1650 5600 1450
+Wire Wire Line
+	5700 1650 5700 1450
+Wire Wire Line
+	6200 1650 6200 1450
+Wire Wire Line
+	6300 1650 6300 1450
+Wire Wire Line
+	6400 1650 6400 1450
+Wire Wire Line
+	6500 1650 6500 1450
+Wire Wire Line
+	6800 1650 6800 1450
+Wire Wire Line
+	7000 1650 7000 1450
+Text GLabel 5600 1450 1    50   Output ~ 0
+IA1-
+Text GLabel 5700 1450 1    50   Output ~ 0
+IA1+
+Text GLabel 5800 1450 1    50   Output ~ 0
+IB1-
+Text GLabel 5900 1450 1    50   Output ~ 0
+IB1+
+Text GLabel 6000 1450 1    50   Output ~ 0
+IC1-
+Text GLabel 6100 1450 1    50   Output ~ 0
+IC1+
+Text GLabel 6200 1450 1    50   Output ~ 0
+IC2-
+Text GLabel 6300 1450 1    50   Output ~ 0
+IC2+
+Text GLabel 6400 1450 1    50   Output ~ 0
+IA2-
+Text GLabel 6500 1450 1    50   Output ~ 0
+IA2+
+Text GLabel 6700 1450 1    50   Output ~ 0
+IN1+
+Text GLabel 6900 1450 1    50   Output ~ 0
+IN1-
+Text GLabel 6800 1450 1    50   Output ~ 0
+IB2+
+Text GLabel 7000 1450 1    50   Output ~ 0
+IB2-
+Text GLabel 7100 1450 1    50   Output ~ 0
+IN2+
+Text GLabel 7300 1450 1    50   Output ~ 0
+IN2-
 $EndSCHEMATC
