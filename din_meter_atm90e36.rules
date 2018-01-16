@@ -1,0 +1,148 @@
+
+(rules PCB din_meter_atm90e36
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 8476)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 150.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 400.2 (type default_"Power_CPU"))
+    (clear 200.2 (type default_"Power_ISO"))
+    (clear 37.6 (type smd_smd))
+    (clear 400.2 (type smd_"Power_CPU"))
+    (clear 200.2 (type smd_"Power_ISO"))
+    (clear 400.2 (type "kicad_default"_"Power_CPU"))
+    (clear 200.2 (type "kicad_default"_"Power_ISO"))
+    (clear 400.2 (type "Power_CPU"_"Power_CPU"))
+    (clear 400.2 (type "Power_CPU"_"Power_ISO"))
+    (clear 200.2 (type "Power_ISO"_"Power_ISO"))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power_CPU" "Via[0-3]_600:300_um" "Power_CPU"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power_ISO" "Via[0-3]_600:300_um" "Power_ISO"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    "Power_CPU" "Via[0-3]_600:300_um-Power_CPU"
+  )
+  (via_rule
+    "Power_ISO" "Via[0-3]_600:300_um-Power_ISO"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    SCLK +3V3 MOSI MISO GND "Net-(C20-Pad2)" "Net-(C18-Pad1)" "Net-(C19-Pad2)"
+    "Net-(C14-Pad2)" "Net-(C10-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad2)" "Net-(C4-Pad2)" "Net-(IC1-Pad46)" "Net-(IC1-Pad45)" "Net-(C6-Pad1)"
+    "Net-(IC1-Pad35)" "Net-(IC1-Pad21)" "Net-(IC1-Pad20)" V3P V2P V1P "Net-(C2-Pad2)" "Net-(C12-Pad2)"
+    "Net-(IC2-Pad20)" "Net-(IC2-Pad21)" "Net-(IC2-Pad35)" "Net-(C16-Pad1)" "Net-(IC2-Pad45)" "Net-(IC2-Pad46)" "CS_1" "CS_0"
+    "ZX0_1" "ZX1_1" "ZX2_1" "CF1_1" "CF2_1" "CF3_1" "CF4_1" "WARN_1"
+    "IRQ2_1" "IRQ1_1" "PM0_1" "PM1_1" "DMA_1" "DMA_0" "PM1_0" "PM0_0"
+    "IRQ1_0" "IRQ2_0" "WARN_0" "CF4_0" "CF3_0" "CF2_0" "CF1_0" "ZX2_0"
+    "ZX1_0" "ZX0_0" "IN_0" "IP_0" "I3N_0" "I3P_0" "I2N_0" "I2P_0"
+    "I1N_0" "I1P_0" "3V3_ISO" "GND_ISO" "CS_2" "GND_CPU" "3V3_CPU" IA1+
+    "IA1-" "IB1-" IC1+ "IC1-" IN1+ "IN1-" IB1+ IB2+
+    "I2P_1" "IN_1" "IN2-" IN2+ "IP_1" "I3N_1" "IC2-" IC2+
+    "I3P_1" "I2N_1" "IB2-" "IA2-" "I1N_1" "I1P_1" IA2+ "Net-(J8-Padb11)"
+    "Net-(J8-Pada13)" "Net-(J8-Pada18)" "Net-(J8-Pada17)" "Net-(J8-Pada15)" "Net-(J8-Pada14)" "Net-(J8-Pada11)" "Net-(J8-Pada10)" "Net-(J8-Pada9)"
+    "Net-(J8-Pada7)" "Net-(J8-Pada5)" "Net-(J8-Pada3)" "Net-(J8-Padb17)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "Power_CPU"
+    (clearance_class "Power_CPU")
+    (via_rule Power_CPU)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "Power_ISO"
+    (clearance_class "Power_ISO")
+    (via_rule Power_ISO)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
