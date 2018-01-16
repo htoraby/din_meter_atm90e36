@@ -314,7 +314,7 @@ F 3 "" H 5750 7050 50  0001 C CNN
 	1    5750 7050
 	-1   0    0    1   
 $EndComp
-Text Notes 4500 6600 0    60   ~ 0
+Text Notes 4500 6450 0    60   ~ 0
 ATM90E3X Poly Phase Metering AFE
 $Comp
 L power:+3V3 #PWR09
@@ -813,7 +813,7 @@ Connection ~ 5900 7300
 Wire Wire Line
 	4500 6950 4500 6800
 Wire Wire Line
-	4500 6800 5250 6800
+	4500 6800 4900 6800
 Wire Wire Line
 	5250 6800 5250 6950
 Wire Wire Line
@@ -821,11 +821,11 @@ Wire Wire Line
 Connection ~ 5250 6800
 Connection ~ 5900 6800
 Wire Wire Line
-	5600 7050 5500 7050
+	5600 7050 5550 7050
 Wire Wire Line
-	4950 7050 4850 7050
+	4950 7050 4900 7050
 Wire Wire Line
-	4200 7050 4100 7050
+	4200 7050 4150 7050
 Wire Wire Line
 	8350 850  8600 850 
 Wire Wire Line
@@ -1072,7 +1072,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 7300 6000 7300
 Wire Wire Line
-	5250 6800 5900 6800
+	5250 6800 5550 6800
 Wire Wire Line
 	5900 6800 6000 6800
 Wire Wire Line
@@ -1117,4 +1117,32 @@ Wire Wire Line
 	5400 2450 5400 2500
 Wire Wire Line
 	5500 1850 5550 1850
+Wire Wire Line
+	5550 7050 5550 6800
+Connection ~ 5550 7050
+Wire Wire Line
+	5550 7050 5500 7050
+Connection ~ 5550 6800
+Wire Wire Line
+	5550 6800 5900 6800
+Wire Wire Line
+	4900 7050 4900 6800
+Connection ~ 4900 7050
+Wire Wire Line
+	4900 7050 4850 7050
+Connection ~ 4900 6800
+Wire Wire Line
+	4900 6800 5250 6800
+Wire Wire Line
+	4150 7050 4150 7300
+Wire Wire Line
+	4150 7300 4500 7300
+Connection ~ 4150 7050
+Wire Wire Line
+	4150 7050 4100 7050
+Connection ~ 4500 7300
+Text GLabel 5950 6800 1    50   Input ~ 0
++3V3
+Text GLabel 5950 7300 3    50   Input ~ 0
+GND
 $EndSCHEMATC
