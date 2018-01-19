@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2018-01-07 revision 47989ccfc)-makepkg*
-G04 #@! TF.CreationDate,2018-01-17T00:09:11+10:30*
+G04 #@! TF.CreationDate,2018-01-19T17:11:47+10:30*
 G04 #@! TF.ProjectId,din_meter_atm90e36,64696E5F6D657465725F61746D393065,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2018-01-07 revision 47989ccfc)-makepkg) date 01/17/18 00:09:11*
+G04 Created by KiCad (PCBNEW (2018-01-07 revision 47989ccfc)-makepkg) date 01/19/18 17:11:47*
 %MOMM*%
 %LPD*%
 G01*
