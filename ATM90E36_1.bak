@@ -27,7 +27,7 @@ F 3 "" H 5750 3300 60  0001 C CNN
 	1    5750 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 6000 7050 0    60   ~ 0
+Text Notes 4700 6700 0    60   ~ 0
 ATM90E3X Poly Phase Metering AFE
 $Comp
 L device:C_Small C11

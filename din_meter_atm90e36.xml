@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_meter_atm90e36\din_meter_atm90e36.sch</source>
-    <date>10/02/2018 2:44:39 PM</date>
+    <date>10/02/2018 3:00:05 PM</date>
     <tool>Eeschema (2018-01-07 revision 47989ccfc)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -412,8 +412,11 @@
       <tstamp>5A4346C2</tstamp>
     </comp>
     <comp ref="R8">
-      <value>1K</value>
+      <value>10K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#"> </field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346C9</tstamp>
