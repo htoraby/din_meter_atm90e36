@@ -257,8 +257,6 @@ Text GLabel 5700 2450 1    60   Output ~ 0
 MISO
 Text GLabel 5800 2450 1    60   Input ~ 0
 SCLK
-Text GLabel 5900 2450 1    60   Input ~ 0
-CS_0
 Text GLabel 4200 3200 0    60   Input ~ 0
 I1P_0
 Text GLabel 4200 3300 0    60   Input ~ 0
@@ -935,8 +933,6 @@ Wire Wire Line
 	3900 2350 3900 2400
 Connection ~ 3900 2400
 Wire Wire Line
-	5900 2450 5900 2500
-Wire Wire Line
 	5800 2450 5800 2500
 Wire Wire Line
 	5700 2450 5700 2500
@@ -1145,4 +1141,8 @@ Text GLabel 5950 6800 1    50   Input ~ 0
 +3V3
 Text GLabel 5950 7300 3    50   Input ~ 0
 GND
+Text GLabel 5900 2450 1    60   Input ~ 0
+CS_0
+Wire Wire Line
+	5900 2450 5900 2500
 $EndSCHEMATC
