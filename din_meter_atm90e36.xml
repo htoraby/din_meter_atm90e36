@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_meter_atm90e36\din_meter_atm90e36.sch</source>
-    <date>23/02/2018 12:05:23 AM</date>
+    <date>23/02/2018 8:24:10 AM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,6 +58,36 @@
     </sheet>
   </design>
   <components>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>Whatnick_logo:Whatnick_logo</footprint>
+      <fields>
+        <field name="manf#"> </field>
+      </fields>
+      <libsource lib="whatnick" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F349B</tstamp>
+    </comp>
+    <comp ref="G2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbols:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
+      <fields>
+        <field name="manf#"> </field>
+      </fields>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F3BBE</tstamp>
+    </comp>
+    <comp ref="SYM1">
+      <value>SYM_Flash_Small</value>
+      <footprint>Whatnick_logo:Fsilk_HV</footprint>
+      <fields>
+        <field name="manf#"> </field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Flash_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F3EA0</tstamp>
+    </comp>
     <comp ref="J7">
       <value>Conn_01x10</value>
       <footprint>Molex_board2board:SHDR10W60P200_1X10_2150X400X335P</footprint>
@@ -676,6 +706,12 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="whatnick" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
     <libpart lib="device" part="L_Small">
       <description>Inductor, small symbol</description>
       <docs>~</docs>
@@ -694,6 +730,14 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>small Open Hardware Logo</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+      </fields>
+    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -709,6 +753,14 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Flash_Small">
+      <description>small flash symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Flash_Small</field>
+      </fields>
     </libpart>
     <libpart lib="" part="conn:Conn_01x10">
       <footprints>
@@ -804,8 +856,14 @@
     <library logical="ATM90E36_Breakout">
       <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e36/ATM90E36_Breakout.lib</uri>
     </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Graphic.lib</uri>
+    </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library/device.lib</uri>
+    </library>
+    <library logical="whatnick">
+      <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e36/whatnick.lib</uri>
     </library>
   </libraries>
   <nets>

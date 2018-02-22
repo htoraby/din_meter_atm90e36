@@ -32,4 +32,40 @@ U 5A433C26
 F0 "ATM90E36_1" 60
 F1 "ATM90E36_1.sch" 60
 $EndSheet
+$Comp
+L whatnick:LOGO G1
+U 1 1 5A8F349B
+P 4550 3050
+F 0 "G1" H 4550 2948 60  0001 C CNN
+F 1 "LOGO" H 4550 3152 60  0001 C CNN
+F 2 "Whatnick_logo:Whatnick_logo" H 4550 3050 50  0001 C CNN
+F 3 "" H 4550 3050 50  0001 C CNN
+F 4 " " H 4550 3050 50  0001 C CNN "manf#"
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 5A8F3BBE
+P 5150 3050
+F 0 "G2" H 5150 3325 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 5150 2825 50  0001 C CNN
+F 2 "" H 5150 3050 50  0001 C CNN
+F 3 "~" H 5150 3050 50  0001 C CNN
+F 4 " " H 5150 3050 50  0001 C CNN "manf#"
+	1    5150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Flash_Small SYM1
+U 1 1 5A8F3EA0
+P 5750 3050
+F 0 "SYM1" V 5660 3050 50  0001 C CNN
+F 1 "SYM_Flash_Small" V 5840 3050 50  0001 C CNN
+F 2 "" H 5750 3025 50  0001 C CNN
+F 3 "~" H 6150 2950 50  0001 C CNN
+F 4 " " H 5750 3050 50  0001 C CNN "manf#"
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
