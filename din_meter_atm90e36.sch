@@ -41,6 +41,7 @@ F 1 "LOGO" H 4550 3152 60  0001 C CNN
 F 2 "Whatnick_logo:Whatnick_logo" H 4550 3050 50  0001 C CNN
 F 3 "" H 4550 3050 50  0001 C CNN
 F 4 " " H 4550 3050 50  0001 C CNN "manf#"
+F 5 " " H 4550 3050 50  0001 C CNN "DNP"
 	1    4550 3050
 	1    0    0    -1  
 $EndComp
@@ -53,6 +54,7 @@ F 1 "Logo_Open_Hardware_Small" H 5150 2825 50  0001 C CNN
 F 2 "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen" H 5150 3050 50  0001 C CNN
 F 3 "~" H 5150 3050 50  0001 C CNN
 F 4 " " H 5150 3050 50  0001 C CNN "manf#"
+F 5 " " H 5150 3050 50  0001 C CNN "DNP"
 	1    5150 3050
 	1    0    0    -1  
 $EndComp
@@ -65,6 +67,7 @@ F 1 "SYM_Flash_Small" V 5840 3050 50  0001 C CNN
 F 2 "Whatnick_logo:Fsilk_HV" H 5750 3025 50  0001 C CNN
 F 3 "~" H 6150 2950 50  0001 C CNN
 F 4 " " H 5750 3050 50  0001 C CNN "manf#"
+F 5 " " V 5750 3050 50  0001 C CNN "DNP"
 	1    5750 3050
 	1    0    0    -1  
 $EndComp

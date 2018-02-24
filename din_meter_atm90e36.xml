@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_meter_atm90e36\din_meter_atm90e36.sch</source>
-    <date>23/02/2018 8:24:10 AM</date>
+    <date>24/02/2018 10:14:43 AM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -63,6 +63,7 @@
       <footprint>Whatnick_logo:Whatnick_logo</footprint>
       <fields>
         <field name="manf#"> </field>
+        <field name="DNP"> </field>
       </fields>
       <libsource lib="whatnick" part="LOGO"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,6 +74,7 @@
       <footprint>Symbols:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
       <fields>
         <field name="manf#"> </field>
+        <field name="DNP"> </field>
       </fields>
       <libsource lib="Graphic" part="Logo_Open_Hardware_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -83,6 +85,7 @@
       <footprint>Whatnick_logo:Fsilk_HV</footprint>
       <fields>
         <field name="manf#"> </field>
+        <field name="DNP"> </field>
       </fields>
       <libsource lib="Graphic" part="SYM_Flash_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -101,6 +104,10 @@
     <comp ref="J8">
       <value>Conn_02x18_Row_Letter_First</value>
       <footprint>Connectors:PCI-EXPRESS</footprint>
+      <fields>
+        <field name="manf#"> </field>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="Conn_02x18_Row_Letter_First"/>
       <sheetpath names="/connectors/" tstamps="/5A2E91F4/"/>
       <tstamp>5A2E95C6</tstamp>
@@ -108,6 +115,9 @@
     <comp ref="L1">
       <value>L_Small</value>
       <footprint>Inductors_SMD:L_0402</footprint>
+      <fields>
+        <field name="manf#">BLM15BD102SN1D</field>
+      </fields>
       <libsource lib="device" part="L_Small"/>
       <sheetpath names="/connectors/" tstamps="/5A2E91F4/"/>
       <tstamp>5A4B475F</tstamp>
@@ -115,6 +125,9 @@
     <comp ref="L2">
       <value>L_Small</value>
       <footprint>Inductors_SMD:L_0402</footprint>
+      <fields>
+        <field name="manf#">BLM15BD102SN1D</field>
+      </fields>
       <libsource lib="device" part="L_Small"/>
       <sheetpath names="/connectors/" tstamps="/5A2E91F4/"/>
       <tstamp>5A4B47F5</tstamp>
@@ -132,6 +145,9 @@
     <comp ref="C1">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R61H104KE19D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A43337F</tstamp>
@@ -149,6 +165,9 @@
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R61H104KE19D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A43339B</tstamp>
@@ -156,6 +175,9 @@
     <comp ref="C2">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333A2</tstamp>
@@ -164,7 +186,7 @@
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
-        <field name="manf#"> GRM155R71H183KA12D</field>
+        <field name="manf#">GRM155R71H183KA12D</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
@@ -173,6 +195,9 @@
     <comp ref="C9">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333B7</tstamp>
@@ -180,6 +205,9 @@
     <comp ref="C10">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333BE</tstamp>
@@ -197,6 +225,9 @@
     <comp ref="R2">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333CC</tstamp>
@@ -204,6 +235,9 @@
     <comp ref="R4">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333D3</tstamp>
@@ -211,6 +245,9 @@
     <comp ref="R3">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">CR0402-JW-103GLFCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333DA</tstamp>
@@ -218,6 +255,9 @@
     <comp ref="Y1">
       <value>Crystal_GND24</value>
       <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <fields>
+        <field name="manf#">ABM10-16.000MHZ-E20-T</field>
+      </fields>
       <libsource lib="device" part="Crystal_GND24"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4333E1</tstamp>
@@ -225,6 +265,9 @@
     <comp ref="DMA_0">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A433743</tstamp>
@@ -232,6 +275,9 @@
     <comp ref="PM0_0">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A43374A</tstamp>
@@ -239,6 +285,9 @@
     <comp ref="PM1_0">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A433751</tstamp>
@@ -246,6 +295,9 @@
     <comp ref="C21">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4C0362</tstamp>
@@ -253,6 +305,9 @@
     <comp ref="R11">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4C044E</tstamp>
@@ -260,6 +315,9 @@
     <comp ref="C22">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4D5E43</tstamp>
@@ -267,6 +325,9 @@
     <comp ref="R12">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A4D5E49</tstamp>
@@ -274,6 +335,9 @@
     <comp ref="C23">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A520A5E</tstamp>
@@ -281,6 +345,9 @@
     <comp ref="R13">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A520A64</tstamp>
@@ -288,6 +355,9 @@
     <comp ref="C24">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A520A6D</tstamp>
@@ -295,6 +365,9 @@
     <comp ref="R14">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A520A73</tstamp>
@@ -302,6 +375,9 @@
     <comp ref="C25">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A528FE1</tstamp>
@@ -309,6 +385,9 @@
     <comp ref="R15">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A528FE7</tstamp>
@@ -316,6 +395,9 @@
     <comp ref="C26">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A528FF0</tstamp>
@@ -323,6 +405,9 @@
     <comp ref="R16">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A528FF6</tstamp>
@@ -330,6 +415,9 @@
     <comp ref="C27">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A531FFB</tstamp>
@@ -337,6 +425,9 @@
     <comp ref="R17">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A532001</tstamp>
@@ -344,6 +435,9 @@
     <comp ref="C28">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A53200A</tstamp>
@@ -351,6 +445,9 @@
     <comp ref="R18">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A532010</tstamp>
@@ -368,6 +465,9 @@
     <comp ref="C6">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_0/" tstamps="/5A432D2E/"/>
       <tstamp>5A433394</tstamp>
@@ -375,6 +475,9 @@
     <comp ref="IC2">
       <value>ATM90E36_ATM90E36</value>
       <footprint>Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="manf#">ATM90E36A-AU-Y</field>
+      </fields>
       <libsource lib="ATM90E36_Breakout" part="ATM90E36_ATM90E36"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A43465F</tstamp>
@@ -382,6 +485,9 @@
     <comp ref="C11">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R61H104KE19D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A43466E</tstamp>
@@ -389,6 +495,9 @@
     <comp ref="C15">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R61H104KE19D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A434675</tstamp>
@@ -396,6 +505,9 @@
     <comp ref="C16">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A434683</tstamp>
@@ -403,6 +515,9 @@
     <comp ref="C18">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R61H104KE19D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A43468A</tstamp>
@@ -410,6 +525,9 @@
     <comp ref="C12">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A434691</tstamp>
@@ -417,6 +535,9 @@
     <comp ref="C14">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A43469F</tstamp>
@@ -424,6 +545,9 @@
     <comp ref="C19">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346A6</tstamp>
@@ -431,6 +555,9 @@
     <comp ref="C20">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346AD</tstamp>
@@ -438,6 +565,9 @@
     <comp ref="R6">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346B4</tstamp>
@@ -445,6 +575,9 @@
     <comp ref="R7">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346BB</tstamp>
@@ -452,6 +585,9 @@
     <comp ref="R9">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346C2</tstamp>
@@ -460,7 +596,7 @@
       <value>10K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
-        <field name="manf#"> </field>
+        <field name="manf#">CR0402-JW-103GLFCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
@@ -469,6 +605,9 @@
     <comp ref="Y2">
       <value>Crystal_GND24</value>
       <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <fields>
+        <field name="manf#">ABM10-16.000MHZ-E20-T</field>
+      </fields>
       <libsource lib="device" part="Crystal_GND24"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4346D0</tstamp>
@@ -476,6 +615,9 @@
     <comp ref="DMA_1">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4349FF</tstamp>
@@ -483,6 +625,9 @@
     <comp ref="PM0_1">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A434A06</tstamp>
@@ -490,6 +635,9 @@
     <comp ref="PM1_1">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="" part="GS3"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A434A0D</tstamp>
@@ -497,6 +645,9 @@
     <comp ref="C29">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D22E</tstamp>
@@ -504,6 +655,9 @@
     <comp ref="R19">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D235</tstamp>
@@ -511,6 +665,9 @@
     <comp ref="C30">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D23F</tstamp>
@@ -518,6 +675,9 @@
     <comp ref="R20">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D246</tstamp>
@@ -525,6 +685,9 @@
     <comp ref="C31">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D261</tstamp>
@@ -532,6 +695,9 @@
     <comp ref="R21">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D268</tstamp>
@@ -539,6 +705,9 @@
     <comp ref="C32">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D272</tstamp>
@@ -546,6 +715,9 @@
     <comp ref="R22">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D279</tstamp>
@@ -553,6 +725,9 @@
     <comp ref="C33">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D294</tstamp>
@@ -560,6 +735,9 @@
     <comp ref="R23">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D29B</tstamp>
@@ -567,6 +745,9 @@
     <comp ref="C34">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2A5</tstamp>
@@ -574,6 +755,9 @@
     <comp ref="R24">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2AC</tstamp>
@@ -581,6 +765,9 @@
     <comp ref="C35">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2C7</tstamp>
@@ -588,6 +775,9 @@
     <comp ref="R25">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2CE</tstamp>
@@ -595,6 +785,9 @@
     <comp ref="C36">
       <value>18n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155R71H183KA12D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2D8</tstamp>
@@ -602,6 +795,9 @@
     <comp ref="R26">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="manf#">RR0510P-102-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A53D2DF</tstamp>
@@ -609,6 +805,9 @@
     <comp ref="C7">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E36_1/" tstamps="/5A433C26/"/>
       <tstamp>5A4E40A6</tstamp>
