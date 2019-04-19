@@ -106,4 +106,5 @@
   (lib (name xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/xilinx.lib)(options "")(descr "Legacy xilinx symbol library."))
   (lib (name zetex)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/zetex.lib)(options "")(descr "Legacy zetex symbol library."))
   (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/whatnick.lib)(options "")(descr ""))
+  (lib (name din_meter_atm90e36-rescue)(type Legacy)(uri ${KIPRJMOD}/din_meter_atm90e36-rescue.lib)(options "")(descr ""))
 )

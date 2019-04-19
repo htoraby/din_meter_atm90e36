@@ -29,7 +29,7 @@ F 4 "ATM90E36A-AU-Y" H 5400 3500 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1
+L din_meter_atm90e36-rescue:C_Small-device C1
 U 1 1 5A43337F
 P 3500 2250
 F 0 "C1" H 3400 2200 50  0000 R CNN
@@ -41,7 +41,7 @@ F 4 "GRM155R61H104KE19D" H 3500 2250 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C_Small C5
+L din_meter_atm90e36-rescue:C_Small-device C5
 U 1 1 5A433386
 P 4250 2250
 F 0 "C5" H 4150 2200 50  0000 R CNN
@@ -53,7 +53,7 @@ F 4 "GRM155R61H104KE19D" H 4250 2250 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C_Small C8
+L din_meter_atm90e36-rescue:C_Small-device C8
 U 1 1 5A43339B
 P 5350 1850
 F 0 "C8" V 5121 1850 50  0000 C CNN
@@ -65,7 +65,7 @@ F 4 "GRM155R61H104KE19D" H 5350 1850 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C2
+L din_meter_atm90e36-rescue:C_Small-device C2
 U 1 1 5A4333A2
 P 4100 4150
 F 0 "C2" H 4008 4104 50  0000 R CNN
@@ -77,7 +77,7 @@ F 4 "GRM188R61A106KE69D" H 4100 4150 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C_Small C4
+L din_meter_atm90e36-rescue:C_Small-device C4
 U 1 1 5A4333B0
 P 4200 5350
 F 0 "C4" H 4108 5304 50  0000 R CNN
@@ -89,7 +89,7 @@ F 4 "GRM155R71H183KA12D" H 4200 5350 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C_Small C9
+L din_meter_atm90e36-rescue:C_Small-device C9
 U 1 1 5A4333B7
 P 4750 5350
 F 0 "C9" H 4658 5304 50  0000 R CNN
@@ -101,7 +101,7 @@ F 4 "GRM155R71H183KA12D" H 4750 5350 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:C_Small C10
+L din_meter_atm90e36-rescue:C_Small-device C10
 U 1 1 5A4333BE
 P 5300 5350
 F 0 "C10" H 5208 5304 50  0000 R CNN
@@ -113,7 +113,7 @@ F 4 "GRM155R71H183KA12D" H 5300 5350 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R1
+L din_meter_atm90e36-rescue:R-device R1
 U 1 1 5A4333C5
 P 3900 5350
 F 0 "R1" H 3970 5396 50  0000 L CNN
@@ -125,7 +125,7 @@ F 4 "RR0510P-102-D" H 3900 5350 50  0001 C CNN "manf#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L din_meter_atm90e36-rescue:R-device R2
 U 1 1 5A4333CC
 P 4450 5350
 F 0 "R2" H 4520 5396 50  0000 L CNN
@@ -137,7 +137,7 @@ F 4 "RR0510P-102-D" H 4450 5350 50  0001 C CNN "manf#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L din_meter_atm90e36-rescue:R-device R4
 U 1 1 5A4333D3
 P 5000 5350
 F 0 "R4" H 5070 5396 50  0000 L CNN
@@ -149,7 +149,7 @@ F 4 "RR0510P-102-D" H 5000 5350 50  0001 C CNN "manf#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L din_meter_atm90e36-rescue:R-device R3
 U 1 1 5A4333DA
 P 5700 1850
 F 0 "R3" V 5493 1850 50  0000 C CNN
@@ -161,7 +161,7 @@ F 4 "CR0402-JW-103GLFCT-ND" H 5700 1850 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Crystal_GND24 Y1
+L din_meter_atm90e36-rescue:Crystal_GND24-device Y1
 U 1 1 5A4333E1
 P 5700 5550
 F 0 "Y1" H 5891 5596 50  0000 L CNN
@@ -293,7 +293,7 @@ V2P
 Text GLabel 5200 4650 3    60   Input ~ 0
 V3P
 $Comp
-L conn:GS3 DMA_0
+L din_meter_atm90e36-rescue:GS3-conn DMA_0
 U 1 1 5A433743
 P 4350 7050
 F 0 "DMA_0" H 4350 6725 50  0000 C CNN
@@ -305,7 +305,7 @@ F 4 " " H 4350 7050 50  0001 C CNN "DNP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:GS3 PM0_0
+L din_meter_atm90e36-rescue:GS3-conn PM0_0
 U 1 1 5A43374A
 P 5100 7050
 F 0 "PM0_0" H 5100 6725 50  0000 C CNN
@@ -317,7 +317,7 @@ F 4 " " H 5100 7050 50  0001 C CNN "DNP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:GS3 PM1_0
+L din_meter_atm90e36-rescue:GS3-conn PM1_0
 U 1 1 5A433751
 P 5750 7050
 F 0 "PM1_0" H 5750 6725 50  0000 C CNN
@@ -359,7 +359,7 @@ PM0_0
 Text GLabel 5500 7050 0    60   Input ~ 0
 PM1_0
 $Comp
-L device:C_Small C21
+L din_meter_atm90e36-rescue:C_Small-device C21
 U 1 1 5A4C0362
 P 9000 1050
 F 0 "C21" H 9092 1096 50  0000 L CNN
@@ -371,7 +371,7 @@ F 4 "GRM155R71H183KA12D" H 9000 1050 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R11
+L din_meter_atm90e36-rescue:R-device R11
 U 1 1 5A4C044E
 P 8750 850
 F 0 "R11" V 8543 850 50  0000 C CNN
@@ -383,7 +383,7 @@ F 4 "RR0510P-102-D" H 8750 850 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C22
+L din_meter_atm90e36-rescue:C_Small-device C22
 U 1 1 5A4D5E43
 P 9000 1400
 F 0 "C22" H 9092 1446 50  0000 L CNN
@@ -395,7 +395,7 @@ F 4 "GRM155R71H183KA12D" H 9000 1400 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L din_meter_atm90e36-rescue:R-device R12
 U 1 1 5A4D5E49
 P 8750 1600
 F 0 "R12" V 8543 1600 50  0000 C CNN
@@ -426,7 +426,7 @@ I1P_0
 Text GLabel 9250 1600 2    50   Output ~ 0
 I1N_0
 $Comp
-L device:C_Small C23
+L din_meter_atm90e36-rescue:C_Small-device C23
 U 1 1 5A520A5E
 P 9000 2250
 F 0 "C23" H 9092 2296 50  0000 L CNN
@@ -438,7 +438,7 @@ F 4 "GRM155R71H183KA12D" H 9000 2250 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R13
+L din_meter_atm90e36-rescue:R-device R13
 U 1 1 5A520A64
 P 8750 2050
 F 0 "R13" V 8543 2050 50  0000 C CNN
@@ -450,7 +450,7 @@ F 4 "RR0510P-102-D" H 8750 2050 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C24
+L din_meter_atm90e36-rescue:C_Small-device C24
 U 1 1 5A520A6D
 P 9000 2600
 F 0 "C24" H 9092 2646 50  0000 L CNN
@@ -462,7 +462,7 @@ F 4 "GRM155R71H183KA12D" H 9000 2600 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R14
+L din_meter_atm90e36-rescue:R-device R14
 U 1 1 5A520A73
 P 8750 2800
 F 0 "R14" V 8543 2800 50  0000 C CNN
@@ -493,7 +493,7 @@ I2P_0
 Text GLabel 9250 2800 2    50   Output ~ 0
 I2N_0
 $Comp
-L device:C_Small C25
+L din_meter_atm90e36-rescue:C_Small-device C25
 U 1 1 5A528FE1
 P 10550 1050
 F 0 "C25" H 10642 1096 50  0000 L CNN
@@ -505,7 +505,7 @@ F 4 "GRM155R71H183KA12D" H 10550 1050 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R15
+L din_meter_atm90e36-rescue:R-device R15
 U 1 1 5A528FE7
 P 10300 850
 F 0 "R15" V 10093 850 50  0000 C CNN
@@ -517,7 +517,7 @@ F 4 "RR0510P-102-D" H 10300 850 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C26
+L din_meter_atm90e36-rescue:C_Small-device C26
 U 1 1 5A528FF0
 P 10550 1400
 F 0 "C26" H 10642 1446 50  0000 L CNN
@@ -529,7 +529,7 @@ F 4 "GRM155R71H183KA12D" H 10550 1400 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R16
+L din_meter_atm90e36-rescue:R-device R16
 U 1 1 5A528FF6
 P 10300 1600
 F 0 "R16" V 10093 1600 50  0000 C CNN
@@ -560,7 +560,7 @@ I3P_0
 Text GLabel 10800 1600 2    50   Output ~ 0
 I3N_0
 $Comp
-L device:C_Small C27
+L din_meter_atm90e36-rescue:C_Small-device C27
 U 1 1 5A531FFB
 P 10550 2250
 F 0 "C27" H 10642 2296 50  0000 L CNN
@@ -572,7 +572,7 @@ F 4 "GRM155R71H183KA12D" H 10550 2250 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R17
+L din_meter_atm90e36-rescue:R-device R17
 U 1 1 5A532001
 P 10300 2050
 F 0 "R17" V 10093 2050 50  0000 C CNN
@@ -584,7 +584,7 @@ F 4 "RR0510P-102-D" H 10300 2050 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C28
+L din_meter_atm90e36-rescue:C_Small-device C28
 U 1 1 5A53200A
 P 10550 2600
 F 0 "C28" H 10642 2646 50  0000 L CNN
@@ -596,7 +596,7 @@ F 4 "GRM155R71H183KA12D" H 10550 2600 50  0001 C CNN "manf#"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R18
+L din_meter_atm90e36-rescue:R-device R18
 U 1 1 5A532010
 P 10300 2800
 F 0 "R18" V 10093 2800 50  0000 C CNN
@@ -638,7 +638,7 @@ F 3 "" H 4100 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L din_meter_atm90e36-rescue:C_Small-device C3
 U 1 1 5A4D715C
 P 3900 2250
 F 0 "C3" H 3800 2200 50  0000 R CNN
@@ -705,7 +705,7 @@ F 3 "" H 3450 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C6
+L din_meter_atm90e36-rescue:C_Small-device C6
 U 1 1 5A433394
 P 5250 2150
 F 0 "C6" V 5050 2150 50  0000 C CNN

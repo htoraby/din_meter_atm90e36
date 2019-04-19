@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x10 J7
+L din_meter_atm90e36-rescue:Conn_01x10-conn J7
 U 1 1 5A2E938F
 P 3500 2050
 F 0 "J7" V 3624 1996 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "52418-1010" H 3500 2050 60  0001 C CNN "manf#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:Conn_02x18_Row_Letter_First J8
+L din_meter_atm90e36-rescue:Conn_02x18_Row_Letter_First-conn J8
 U 1 1 5A2E95C6
 P 6400 1950
 F 0 "J8" V 6404 962 50  0000 R CNN
@@ -120,7 +120,7 @@ Text GLabel 7100 2350 3    60   Output ~ 0
 Text Notes 5600 2950 0    50   ~ 0
 Metering to Power/Sampler connector
 $Comp
-L device:L_Small L1
+L din_meter_atm90e36-rescue:L_Small-device L1
 U 1 1 5A4B475F
 P 3250 3650
 F 0 "L1" V 3072 3650 50  0000 C CNN
@@ -132,7 +132,7 @@ F 4 "BLM15BD102SN1D" H 3250 3650 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Small L2
+L din_meter_atm90e36-rescue:L_Small-device L2
 U 1 1 5A4B47F5
 P 3250 3900
 F 0 "L2" V 3072 3900 50  0000 C CNN
